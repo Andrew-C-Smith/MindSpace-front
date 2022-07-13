@@ -1,5 +1,13 @@
 {
   "name": "client",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "v16.15.0"
+
+
+
+
   "version": "0.1.0",
   "private": true,
   "dependencies": {
