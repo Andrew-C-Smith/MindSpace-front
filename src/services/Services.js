@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:8080';
+const baseURL = 'https://flart-mindspace.herokuapp.com/';
 
 export const UserService =  {
     getUsers() {
