@@ -1,0 +1,125 @@
+
+/* JIGSAW */
+
+
+.jigsaw-image 
+{
+    opacity: 1;
+    /* display: block; */
+    /* width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.jigsaw-container:hover .jigsaw-image 
+{
+    opacity: 0.3;
+}
+
+.jigsaw-middle 
+{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.jigsaw-container:hover .jigsaw-middle 
+{
+    opacity: 1;
+}
+
+.jigsaw-text 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: lamarkie, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+/* BUBBLES */
+
+.bubbles-image 
+{
+    opacity: 1;
+    /* display: block; */
+    /* width: 100%;
+    height: auto; */
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.bubbles-container:hover .bubbles-image 
+{
+    opacity: 0.3;
+}
+
+.bubbles-middle 
+{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.bubbles-container:hover .bubbles-middle 
+{
+    opacity: 1;
+}
+
+.bubbles-text 
+{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-family: lamarkie, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.game-image-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.play-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.play-title
+{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+#game-choose
+{
+    color:#121212;
+    font-family: lamarkie, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+

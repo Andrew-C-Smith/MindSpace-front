@@ -1,0 +1,33 @@
+.button-controls {
+  display: flex;
+  justify-content: space-between;
+  width:  65%;
+  max-height: 2vh;
+  margin: 0 auto 0.5em;
+}
+
+.button-controls > button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.play {
+  width: 2em;
+  height: auto;
+}
+
+.pause {
+  width: 2em;
+  height: auto;
+}
+
+.next {
+  width: 2em;
+  height: auto;
+}
+
+.prev {
+  width: 2em;
+  height: auto;
+}
